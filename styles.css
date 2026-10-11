@@ -55,3 +55,4 @@ h1 em{color:var(--ink);background:linear-gradient(transparent 55%,var(--gold) 55
 .card{box-shadow:5px 5px 0 var(--gold)}
 .msg.me{border-color:var(--ink)}
 h1 em{display:inline;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+h1 em{background:none;padding:0;text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:.16em;text-underline-offset:.06em;text-decoration-skip-ink:none}
