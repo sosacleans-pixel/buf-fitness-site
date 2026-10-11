@@ -54,3 +54,4 @@ h1 em{color:var(--ink);background:linear-gradient(transparent 55%,var(--gold) 55
 .check li::before{color:var(--ink);background:var(--gold);border-radius:50%;width:20px;height:20px;display:grid;place-items:center;font-size:.75rem;top:4px}
 .card{box-shadow:5px 5px 0 var(--gold)}
 .msg.me{border-color:var(--ink)}
+h1 em{display:inline;-webkit-box-decoration-break:clone;box-decoration-break:clone}
