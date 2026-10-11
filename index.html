@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex,nofollow">
-<title>BUF Fitness — Build Ur Fitness | AI coaching, always supervised by a real coach</title>
+<title>BUF Fitness — AI coaching, always a real coach</title>
 <meta name="description" content="BUF (Build Ur Fitness) pairs AI-powered training plans and text check-ins with a real coach who reviews every message. For people who want coaching and coaches who want to scale.">
 <meta property="og:title" content="BUF Fitness — AI-powered coaching, always a real coach">
 <meta property="og:description" content="AI-powered training and texting, supervised by a real human coach. Join the waitlist.">
@@ -31,7 +31,7 @@
 <p class="lead">BUF builds your training plan and keeps you on track by text — and a real, qualified coach supervises every plan and every message. Smart like software, accountable like a human.</p>
 <div class="cta"><a class="btn" href="#waitlist">Join the waitlist</a><a class="btn ghost" href="#coaches">I'm a coach</a></div>
 </div>
-<div class="phone" aria-label="Example text conversation (illustrative)">
+<div class="phone" role="group" aria-label="Example text conversation (illustrative)">
 <div class="msg ai">Morning! Today's plan: 30-min lower body + 10-min walk. Want the low-impact version since your knee was sore?<span class="tag">Drafted by AI · approved by Coach [Name]</span></div>
 <div class="msg me">Yes please, low-impact 🙏<span class="tag">You</span></div>
 <div class="msg ai">Done — swapped lunges for glute bridges. I'll check in after. Proud of the streak.<span class="tag">Reviewed by Coach [Name]</span></div>
@@ -51,7 +51,7 @@
 <div><p class="eyebrow">Human-in-the-loop</p><h2>Not a faceless bot. A coach who knows you.</h2>
 <p class="lead">AI handles the speed and the busywork. A real coach owns the decisions. Every plan change and every outgoing message is supervised by the coach assigned to you.</p>
 <ul class="check"><li>Coaches review, edit, or reject AI drafts</li><li>Sensitive topics (injury, pain, nutrition concerns) route straight to your coach</li><li>You always know who your coach is — by name</li></ul></div>
-<div class="loop" aria-label="Supervision loop">
+<div class="loop" role="group" aria-label="Supervision loop">
 <div><strong>You text</strong> a question or check-in</div>
 <div><strong>AI drafts</strong> a reply or plan adjustment</div>
 <div><strong>Your coach</strong> approves, edits, or takes over</div>
@@ -64,7 +64,7 @@
 <div class="card"><h3>Adaptive training plans</h3><p>Programs that adjust to your progress, schedule, and recovery.</p></div>
 <div class="card"><h3>Text-first check-ins</h3><p>Coaching where you already are — your messages, no extra app to open every time.</p></div>
 <div class="card"><h3>Progress tracking</h3><p>Workouts, streaks, and milestones in one clear view.</p></div>
-<div class="card"><h3>Habit & nutrition nudges</h3><p>Simple, sustainable habits — guidance, not medical advice.</p></div>
+<div class="card"><h3>Habit &amp; nutrition nudges</h3><p>Simple, sustainable habits — guidance, not medical advice.</p></div>
 <div class="card"><h3>Coach-reviewed messages</h3><p>Every AI-drafted message passes through a real coach.</p></div>
 <div class="card"><h3>Privacy-minded</h3><p>Your data is used to coach you. [Privacy policy placeholder]</p></div>
 </div></div></section>
@@ -89,7 +89,7 @@
 <input type="hidden" name="_template" value="table">
 <input type="hidden" name="_captcha" value="true">
 <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
-<label>Name<input name="name" required autocomplete="name"></label>
+<label>Name<input type="text" name="name" required autocomplete="name"></label>
 <label>Email<input type="email" name="email" required autocomplete="email"></label>
 <label>I am…<select name="role"><option>Looking for a coach</option><option>A coach interested in BUF</option><option>Other</option></select></label>
 <label>Goals or questions (optional)<textarea name="message" rows="3"></textarea></label>
