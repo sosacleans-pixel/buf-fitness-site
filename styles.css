@@ -45,3 +45,4 @@ label{font-weight:600;display:grid;gap:6px}input,select,textarea{font:inherit;pa
 footer{padding:36px 0;border-top:3px double var(--brown);color:var(--mut);font-size:.92rem}
 @media(max-width:860px){.hero .grid,.split{grid-template-columns:1fr}.cards{grid-template-columns:1fr}nav ul{display:none}.phone{margin:0 auto}section{padding:60px 0}.badge{width:110px;height:110px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+.logo .wm{color:inherit}
