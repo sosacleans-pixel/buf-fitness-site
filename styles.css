@@ -65,3 +65,23 @@ h1 em{background:none;padding:0;text-decoration:underline;text-decoration-color:
 .card.note p+p{margin-top:12px}
 .foot p{margin:.3em 0}.foot-links{display:flex;flex-wrap:wrap;gap:18px}.foot-links a{color:var(--brown)}
 .legal{max-width:780px}.legal h1{font-size:clamp(2.4rem,5vw,3.6rem)}.legal h2{font-size:1.6rem;margin-top:1.6em}.legal p,.legal li{color:var(--ink)}
+
+/* 10/18: BUF launch waitlist (Get the app opens this until the app is out) */
+.soon{margin:14px 0 0}
+.wl-form h3{margin:.1em 0 0;font-size:1.7rem}.wl-form .eyebrow{justify-self:start}
+.wl-intro{margin:0;color:var(--mut)}.opt{font-weight:400;color:var(--mut)}
+.wl-check{display:flex;align-items:flex-start;gap:10px;font-weight:400;font-size:.95rem;color:var(--brown)}
+.wl-check input{width:20px;height:20px;margin:3px 0 0;flex:0 0 auto;accent-color:var(--ink)}
+.wl-err{margin:0;color:var(--red);font-weight:600}
+input[aria-invalid="true"]{border-color:var(--red)}
+.wl-form .btn{justify-self:start}.wl-form .btn[disabled]{opacity:.6;cursor:wait}
+.wl-thanks{background:#fff;border-radius:14px;padding:28px;border:2px solid var(--ink);box-shadow:8px 8px 0 var(--gold)}
+.wl-thanks h3{font-size:1.9rem;margin:.3em 0}.wl-thanks:focus{outline:none}
+.wl-dialog{border:0;padding:0;background:transparent;width:min(480px,calc(100vw - 32px));max-width:none;max-height:calc(100vh - 32px);overflow:visible;color:var(--ink)}
+.wl-dialog[open]{display:block}
+.wl-dialog::backdrop{background:rgba(35,28,20,.72)}
+.wl-dialog #wl-slot{max-height:calc(100vh - 48px);overflow:auto;padding:0 10px 10px 0}
+.wl-close{position:absolute;top:-14px;right:-6px;z-index:2;width:40px;height:40px;border-radius:50%;background:var(--gold);color:var(--ink);border:2px solid var(--ink);box-shadow:2px 2px 0 var(--ink);font-size:1.5rem;line-height:1;cursor:pointer}
+.wl-close:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+body.wl-lock{overflow:hidden}
+.wl-box [hidden]{display:none!important}
