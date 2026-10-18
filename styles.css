@@ -56,3 +56,12 @@ h1 em{color:var(--ink);background:linear-gradient(transparent 55%,var(--gold) 55
 .msg.me{border-color:var(--ink)}
 h1 em{display:inline;-webkit-box-decoration-break:clone;box-decoration-break:clone}
 h1 em{background:none;padding:0;text-decoration:underline;text-decoration-color:var(--gold);text-decoration-thickness:.16em;text-underline-offset:.06em;text-decoration-skip-ink:none}
+
+/* 10/18: meet the coach, notes, footer */
+.coach-photo{margin:0}.coach-photo img{display:block;width:100%;height:auto;border:2px solid var(--ink);border-radius:var(--r);box-shadow:8px 8px 0 var(--gold);filter:sepia(.12) contrast(1.03)}
+.creds{list-style:none;padding:0;margin:8px 0 0;display:flex;flex-wrap:wrap;gap:8px}
+.creds li{background:#fff;border:1.5px solid var(--ink);border-radius:999px;padding:4px 12px;font-family:var(--cond);text-transform:uppercase;letter-spacing:.8px;font-size:.88rem}
+.card.note a{font-family:var(--cond);text-transform:uppercase;letter-spacing:1px;color:var(--ink);font-weight:600}
+.card.note p+p{margin-top:12px}
+.foot p{margin:.3em 0}.foot-links{display:flex;flex-wrap:wrap;gap:18px}.foot-links a{color:var(--brown)}
+.legal{max-width:780px}.legal h1{font-size:clamp(2.4rem,5vw,3.6rem)}.legal h2{font-size:1.6rem;margin-top:1.6em}.legal p,.legal li{color:var(--ink)}
